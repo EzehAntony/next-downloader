@@ -1,12 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { Inter } from "@next/font/google";
+import { Ubuntu } from "@next/font/google";
 import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 import styles from "./splash.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const ubuntu = Ubuntu({ weight: "500" });
 
 export default function splash() {
   const router = useRouter();
@@ -18,7 +18,8 @@ export default function splash() {
 
   return (
     <div className={styles.splash}>
-      <img src={"/logo.png"} alt="logo" />
+      <img src={"/logoWhite.png"} alt="logo" />
+      <h3 className={ubuntu.className}>Next downloader</h3>
     </div>
   );
 }

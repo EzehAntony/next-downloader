@@ -4,22 +4,30 @@
   width: 100%;
   color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .splash img {
   width: 50%;
-  max-width: 400px;
+  max-width: 100px;
   animation: bounce 1s infinite alternate;
+}
+
+.splash h3 {
+  animation: bounce 1s infinite alternate;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 @keyframes bounce {
   0% {
-    margin-top: -50px;
+    transform: translateY(30px);
   }
 
   100% {
-    margin-bottom: -50px;
+    transform: translateY(-30px);
   }
 }
