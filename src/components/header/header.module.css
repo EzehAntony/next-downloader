@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 
 .header img {
@@ -14,7 +15,6 @@
 
 .header .text p {
   position: relative;
-  z-index: 21;
   font-size: 20px;
   font-weight: 500;
 }
@@ -45,13 +45,14 @@
 .bellCount p {
   font-size: 15px;
   font-weight: 600;
+  color: white;
 }
 
 .header .text {
   background-color: #76a3a9;
   border-radius: 5px 5px 0 0;
   width: fit-content;
-  height: 15px;
+  height: 14px;
   left: 0;
   padding: 0 20px;
   top: 0;
