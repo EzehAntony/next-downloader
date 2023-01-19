@@ -1,18 +1,30 @@
 .home {
   min-height: 100vh;
   width: 100%;
-  background-color: #76a3a9;
+  background-color: #002635;
   color: #c8c5a6;
   font-size: 20px;
   font-weight: 600;
+  color: white;
   display: flex;
   justify-content: center;
-  color: white;
   align-items: center;
   text-transform: capitalize;
+  padding-top: 40px;
 }
 
 .home h1 {
   text-align: center;
   font-size: 30px;
+}
+
+.socials {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  border-radius: 10px;
 }
