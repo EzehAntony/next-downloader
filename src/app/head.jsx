@@ -7,7 +7,7 @@ export default function Head() {
         name="description"
         content="Download medias across popular platforms"
       />
-      <meta name="theme-color" content="#76a3a9" />
+      <meta name="theme-color" content="#002635" />
       <link rel="icon" href="/favicon.ico" />
     </>
   );
