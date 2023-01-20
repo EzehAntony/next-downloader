@@ -8,13 +8,32 @@ import Card from "@/components/card/Card";
 const ubuntu = Ubuntu({ weight: "500" });
 function home() {
   const socialMedia = [
-    "instagram",
-    "whatsapp",
-    "facebook",
-    "twitter",
-    "tiktok",
-    "youtube",
+    {
+      name: "Whatsapp",
+      img: "/facebook.svg",
+    },
+    {
+      name: "instagram",
+      img: "/instagram.svg",
+    },
+    {
+      name: "twitter",
+      img: "/twitter.svg",
+    },
+    {
+      name: "youtube",
+      img: "/youtube.svg",
+    },
+    {
+      name: "tiktok",
+      img: "/tiktok.svg",
+    },
+    {
+      name: "facebook",
+      img: "/facebook.svg",
+    },
   ];
+
   return (
     <div className={styles.home}>
       <h1 className={ubuntu.className}></h1>

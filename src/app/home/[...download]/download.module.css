@@ -1,0 +1,62 @@
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #002635;
+}
+
+.download .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 0 40px 0;
+}
+
+.download .top img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.download .top h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #dfddcb;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.download input {
+  height: 40px;
+  width: 90%;
+  background-color: #dfddcb;
+  max-width: 400px;
+  color: #002635;
+  font-weight: 600;
+  margin-bottom: 10px;
+  outline: none;
+  border: 0;
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.download input::placeholder {
+  color: #00263583;
+  text-transform: capitalize;
+}
+
+.download button {
+  background-color: #76a3a9;
+  border: 0;
+  outline: none;
+  padding: 15px 40px;
+  border-radius: 10px 0 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
